@@ -21,5 +21,5 @@ class EmployeeSalary:
         cls.hourly_payment = hourly_payment_updated
     
     
-    def salary(self, hours):
-        return hours * self.hourly_payment
+    def salary(self):
+        return self.hours * self.hourly_payment
